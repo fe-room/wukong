@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "author": "chenmeng",
+  "license": "MIT",
+  "repository": "https://github.com/fe-room/wukong",
+  "private": true,
+  "workspaces": [
+    "packages/**"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
   }

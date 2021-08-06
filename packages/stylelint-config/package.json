@@ -8,9 +8,12 @@
   "peerDependencies": {
     "stylelint": "^13.13.1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0"
   },
-  "gitHead": "6fca9419e8aa76f53da7e84a284fe31157da6e3e"
+  "gitHead": "c9ef6997ce0fad44f6e4079bf344234e3eaa4b15"
 }

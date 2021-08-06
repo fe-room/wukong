@@ -14,6 +14,5 @@
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0"
-  },
-  "gitHead": "c9ef6997ce0fad44f6e4079bf344234e3eaa4b15"
+  }
 }

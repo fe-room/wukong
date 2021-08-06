@@ -1,5 +1,5 @@
 {
-  "name": "@wukong/stylelint-config",
+  "name": "@wkp/stylelint-config",
   "version": "1.1.1",
   "description": "stylelint config of wukong",
   "main": "index.js",
@@ -14,6 +14,5 @@
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0"
-  },
-  "gitHead": "156a2763a1757e7581176441e5dc3502b8668be1"
+  }
 }

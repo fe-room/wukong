@@ -1,0 +1,16 @@
+{
+  "name": "@wkp/wokong-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "serve": "node lib/src/bin.js"
+  },
+  "author": "chenmeng",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.4.13",
+    "commander": "^8.1.0"
+  }
+}

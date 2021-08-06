@@ -3,10 +3,6 @@
   "version": "1.0.2",
   "description": "stylelint config of wukong",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "author": "wukong",
   "license": "MIT",
   "peerDependencies": {
@@ -15,5 +11,6 @@
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^22.0.0"
-  }
+  },
+  "gitHead": "6fca9419e8aa76f53da7e84a284fe31157da6e3e"
 }

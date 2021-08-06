@@ -1,0 +1,19 @@
+{
+  "name": "@wukong/stylelint-config",
+  "version": "1.0.0",
+  "description": "stylelint config of wukong",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "wukong",
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^13.13.1"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}

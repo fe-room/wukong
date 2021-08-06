@@ -1,6 +1,6 @@
 {
   "name": "@wukong/stylelint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "stylelint config of wukong",
   "main": "index.js",
   "author": "wukong",

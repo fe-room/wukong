@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-08-09 14:52:27
- * @LastEditTime: 2021-08-10 11:14:31
+ * @LastEditTime: 2021-08-10 13:46:38
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /wukong/packages/wokong-cli/src/common/paths.ts
@@ -31,4 +31,5 @@ export const CWD = process.cwd();
 export const ROOT = findRootDir(CWD);
 export const ROOT_POSTCSS_CONFIG_FILE = join(ROOT, 'postcss.config.js');
 export const CACHE_DIR = join(ROOT, 'node_modules/.cache');
-export const resolveApp = (relativePath: string) => path.resolve(CWD, relativePath)
+export const resolveApp = (relativePath: string) => path.resolve(CWD, relativePath);
+export const WEBSITE_PATH_HTML = resolveApp('template/vue/index.html');

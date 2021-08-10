@@ -11,11 +11,19 @@
   "license": "MIT",
   "dependencies": {
     "@types/fs-extra": "^9.0.12",
+    "@types/lodash": "^4.14.172",
     "@types/node": "^16.4.13",
+    "@types/webpack-dev-server": "^3.11.5",
+    "address": "^1.1.2",
     "chalk": "^4.1.2",
     "commander": "^8.1.0",
     "fs-extra": "^10.0.0",
-    "vue-loader": "^16.5.0"
+    "inquirer": "^8.1.2",
+    "lodash": "^4.17.21",
+    "portfinder": "^1.0.28",
+    "vue-loader": "^16.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
     "@nuxtjs/friendly-errors-webpack-plugin": "^2.1.0",

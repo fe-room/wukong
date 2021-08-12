@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-08-09 13:57:52
- * @LastEditTime: 2021-08-10 14:27:57
+ * @LastEditTime: 2021-08-11 17:21:33
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /wukong/packages/wokong-cli/src/common/index.ts
@@ -23,7 +23,6 @@ colors.forEach((color) => {
 export { colorText };
 
 export type NodeEnv = "production" | "development" | "test";
-
 export function setNodeEnv(value: NodeEnv) {
   process.env.NODE_ENV = value;
 }
@@ -56,8 +55,8 @@ export function getWebpackConfig(
     },
     devServer: {
       port: 8080,
-      quiet: true,
-      host: "0.0.0.0",
+      quiet: true, //除了初始启动信息外，什么都不会写入控制台
+      host: "0.0.0.0", //可从外部访问
       stats: "errors-only",
       publicPath: "/",
       disableHostCheck: true,
